@@ -1,0 +1,4 @@
+MCA Python Project
+
+The purpose of this project is to fetch descriptions of the various IPC sections from the internet and according to the given description of a crime, classify it under the most appropriate sections. Fetching the section data is done by web scraping using the Beautiful Soup library.
+The project utilises two different methods to achieve this: one simple method based on matching the words in the crime description with those in the description of the various sections, and one method that uses the Sentence Transformer pre-trained models to find the cosine similarity between the description of the crime and the descriptions of the sections and returns the ones with the highest similarity. 
